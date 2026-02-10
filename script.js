@@ -13,7 +13,7 @@ const maxYesWidth = parseFloat(yesButtonStyle.maxWidth);
 // array of gifs - in order
 const gifs = ["assets/images/shinichi-kudo-detective-conan.gif","assets/images/shinichi-kudo-detective-conan.gif", "assets/images/conan-sad.gif", "assets/images/conan-sad-2.gif"];
 // array of messages
-const buttonMessages = ["Are you sure??", "Pookie please", "Pookie PLEASE", "You can't do this to me!"];
+const buttonMessages = ["Are you sure??", "Lah grabe syaaa", "Libre kita", "MCDO???", "Fishball???","Macarooonsss??","Lah grabe ayaw talaga"];
 
 // no button clicked
 noButton.addEventListener("click", () => {
