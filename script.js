@@ -1,5 +1,6 @@
 let noClicks = 1;
-const maxNoClicks = 4;
+const maxNoClicks = 7;
+const maxNogifs = 4;
 const minNoScale = 0.65;
 let noScale = 1;
 let yesScale = 1; // This now tracks the scaling factor directly
@@ -17,7 +18,7 @@ const buttonMessages = ["Are you sure??", "Lah grabe syaaa", "Libre kita", "MCDO
 
 // no button clicked
 noButton.addEventListener("click", () => {
-    if (noClicks < maxNoClicks) {
+    if (noClicks < maxNogifs) {
         // change image
         gifElement.src = gifs[noClicks];
     }
@@ -58,4 +59,5 @@ noButton.addEventListener("click", () => {
 
     // increment the number of clicks
     noClicks++;
+    
 });
